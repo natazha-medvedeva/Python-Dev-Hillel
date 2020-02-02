@@ -5,7 +5,6 @@ n = int(input('Введите элемент для поиска в списке
 
 i_left = 0
 i_right = len(L) - 1
-
 while i_right - i_left >= 0:
     i_med = i_left + (i_right - i_left) // 2
     if n == L[i_med]:
